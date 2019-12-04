@@ -11,6 +11,9 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to='/profiles'> Developers </Link>
       </li>
       <li>
+        <Link to='/posts'> Posts </Link>
+      </li>
+      <li>
         <Link to='/dashboard'>
           <i className='fas fa-user' />
           <span className='hide-sm'></span> Dashboard
@@ -61,7 +64,4 @@ Navbar.propTypes = {
 const mapStateToProps = state => ({
   auth: state.auth
 });
-export default connect(
-  mapStateToProps,
-  { logout }
-)(Navbar);
+export default connect(mapStateToProps, { logout })(Navbar);
