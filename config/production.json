@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://alvin4292:alvin4292@devconnector-hkfyu.mongodb.net/DevConnector?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "e03500030e25e8f0920f",
+  "githubSecret": "1bbfda66fbc0c6d4956356c72769550c8ea8e227"
+}
